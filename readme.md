@@ -1,8 +1,10 @@
 # dud.js
 
-Experimental javascript testing framework.
+Experimental JavaScript testing library.
 
-The idea about this "testing framework" is to have slim tests and tests that is written close to the actual function. A side effect is that tests are a good way to tell the world what your function is supposed to do (instead of writing long comments)
+With this testing library you can comment your functions with simple test cases. When *dud.js* is executet it will run your tests from the comments.
+
+A side effect is that the test cases usually gives you a pretty good documentation of the function (instead of writing long comments)
 
 Here's an example of a function with four tests.
 
@@ -26,7 +28,7 @@ Here's a screenshot where *_app.js* is run from Visual Studio Code:
 
 # Join me 
 
-Interested in developing this idea in javascript or another language like C#?
+Interested in developing this idea in JavaScript or another language like C#?
 
 Send a mail to oo@happybits.se
 
