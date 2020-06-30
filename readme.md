@@ -26,6 +26,11 @@ Here's a screenshot where *_app.js* is run from Visual Studio Code:
 
 ![](screenshot.png)
 
+
+A ten minute clip showing how to use dud.js:
+
+https://youtu.be/2sV_dMO46as
+
 # Join me 
 
 Interested in developing this idea in JavaScript or another language like C#?
