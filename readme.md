@@ -2,7 +2,7 @@
 
 Experimental JavaScript testing library.
 
-With this testing library you can comment your functions with simple test cases. When *dud.js* is executet it will run your tests from the comments.
+With this testing library you can comment your functions with simple test cases. When *dud.js* is executed it will run your tests from the comments.
 
 A side effect is that the test cases usually gives you a pretty good documentation of the function (instead of writing long comments)
 
