@@ -1,9 +1,9 @@
-﻿// todo: handle ' in tests (check the JSON-clone)
+// todo: handle ' in tests (check the JSON-clone)
 // todo: solution without using "eval"
 // todo: handle functions like () => {}  (not so high prio)
 
 let fs = require('fs');
-let _ = require('./underscore-min.js')
+let _ = require('underscore')
 
 module.exports.run = function (paramSettings, ...tests) {
 
@@ -243,7 +243,7 @@ function test(funToTest) {
     }
 
     let response
-    let fileToRead = __dirname + "/../" + settings.path + fileName
+    let fileToRead = __dirname + "/" + settings.path + fileName
     try {
         response = fs.readFileSync(fileToRead, 'utf8');
     } catch (ex) {
@@ -253,6 +253,3 @@ function test(funToTest) {
 
     runtest(response, funToTest, fileName)
 }
-
-
-

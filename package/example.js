@@ -1,9 +1,9 @@
 
-const dud = require('./lib/dud')
+const dud = require('./dud')
 
 dud.run(
 
-    {},
+    { path: 'tests/' },
 
     ['warmup1'],
     ['warmup2', 'oneline'],

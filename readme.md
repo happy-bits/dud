@@ -22,14 +22,34 @@ Here's an example of a function with four tests.
             return `${a + 1}`
     }
 
-Here's a screenshot where *_app.js* is run from Visual Studio Code:
-
-![](screenshot.png)
-
-
 A ten minute clip showing how to use dud.js:
 
 https://youtu.be/2sV_dMO46as
+
+# Usage
+
+Install the package:
+
+    npm install @happybits/dud
+
+
+Create a file **example.js** with this code:
+
+    const dud = require('@happybits/dud')
+
+    dud.run(
+
+        { path: 'tests/' },
+
+        ['warmup1'],
+        ['warmup2', 'oneline'],
+        ['warmup3', 'filter', 'oneline'],
+        ['warmup4', 'regex'],
+    )
+
+In the folder **tests** add the files warmup1.js, warmup2.js, warmup3.js, warmup4.js.
+
+Run **example.js**
 
 # Join me 
 

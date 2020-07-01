@@ -1,0 +1,28 @@
+{
+  "name": "@happybits/dud",
+  "version": "0.0.7",
+  "description": "JavaScript Testing Library (with a twist)",
+  "main": "dud.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/happy-bits/dud.git"
+  },
+  "keywords": [
+    "JavaScript",
+    "TDD",
+    "Test",
+    "Experimental"
+  ],
+  "author": "Oscar Olsson <oo@happybits.se> (https://happybits.se)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/happy-bits/dud/issues"
+  },
+  "homepage": "https://github.com/happy-bits/dud#readme",
+  "dependencies": {
+    "underscore": "^1.10.2"
+  }
+}
