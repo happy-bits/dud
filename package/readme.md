@@ -4,7 +4,9 @@ Experimental JavaScript testing library.
 
 With this testing library you can comment your functions with simple test cases. When *dud.js* is executed it will **run your tests from the comments**.
 
-A side effect is that the test cases usually gives you a pretty good documentation of the function (instead of writing long comments)
+A side effect is that the test cases usually gives you a pretty good documentation of the function.
+
+## Example 1
 
 Here's an example of a function with five tests.
 
@@ -35,7 +37,7 @@ https://youtu.be/2sV_dMO46as
 
 ## Example 2
 
-Of course you can have multiple parameters. And you can easily create multiple versions of the same function and run the same test cases on all.
+Of course you can have multiple parameters. And you can easily create multiple versions of the same function and run the same test cases on all functions.
 
     /*
         5, true     ➞ "*6*"
@@ -57,7 +59,7 @@ Of course you can have multiple parameters. And you can easily create multiple v
 
 ## Example 3
 
-If you just write a normal comments these lines will be ignored. Only lines that contains '➞' will be interpreted as tests. So here we have four tests:
+If you just write normal comments these lines will be ignored. Only lines that contains '➞' will be interpreted as tests. So here we have four tests:
 
     /*
         Get the age of the oldest person.
