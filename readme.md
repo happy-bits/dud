@@ -4,7 +4,9 @@ Experimental JavaScript testing library.
 
 With this testing library you can comment your functions with simple test cases. When *dud.js* is executed it will **run your tests from the comments**.
 
-A side effect is that the test cases usually gives you a pretty good documentation of the function.
+The benefits are that you can write short and **expressive test cases** + your test cases are **physically close** to your functions. A side effect is that test cases often gives **a pretty good description** of what your function is supposed to do (so you don't need any normal comments)
+
+I work as a teacher and currently use this in my education, but I think the idea might work in the real world as well :)
 
 ## Example 1
 

@@ -1,6 +1,6 @@
 {
   "name": "@happybits/dud",
-  "version": "0.0.8",
+  "version": "0.0.10",
   "description": "JavaScript Testing Library (with a twist)",
   "main": "dud.js",
   "scripts": {
