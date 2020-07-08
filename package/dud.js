@@ -1,5 +1,6 @@
 // todo: handle ' in tests (check the JSON-clone)
 // todo: solution without using "eval"
+// todo: handle parameters in test with value "undefined"
 // todo: handle functions like () => {}  (not so high prio)
 
 let fs = require('fs');
@@ -243,7 +244,7 @@ function test(funToTest) {
     }
 
     let response
-    let fileToRead = __dirname + "/" + settings.path + fileName
+    let fileToRead = "./" + settings.path + fileName
     try {
         response = fs.readFileSync(fileToRead, 'utf8');
     } catch (ex) {
